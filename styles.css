@@ -23,4 +23,5 @@ main {
 
 .blog-post img {
     float: right;
+    width: 200px;
 }
