@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+    grid-column: 1 / 4;
+}
+
+main {
+    grid-column: 1 / 3;
+}
