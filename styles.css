@@ -34,6 +34,8 @@ header img {
 
 header h1 {
     margin: 0 auto 2px;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header p {
@@ -46,8 +48,19 @@ main {
     margin-right: 70px;
 }
 
+.blog-title {
+    color: #48BB78;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.blog-date {
+    color: #718096;
+}
+
 aside {
     margin-right: 100px;
+
 }
 
 ul {
