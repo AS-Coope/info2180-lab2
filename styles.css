@@ -9,6 +9,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
 }
 
 img {
@@ -21,6 +22,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 35px;
 
     background-color: #63B3ED;
     color: #FFFFFF;
@@ -30,8 +32,22 @@ header img {
     border-radius: 92px;
 }
 
+header h1 {
+    margin: 0 auto 2px;
+}
+
+header p {
+    margin: 2px auto 40px;
+}
+
 main {
     grid-column: 1 / 3;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+aside {
+    margin-right: 100px;
 }
 
 ul {
@@ -43,4 +59,5 @@ ul {
 .blog-post img {
     float: right;
     width: 200px;
+    margin: 20px;
 }
