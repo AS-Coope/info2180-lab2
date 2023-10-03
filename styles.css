@@ -115,3 +115,11 @@ aside h3 {
 .archives {
     color: #4299E1;
 }
+
+/* Footer Stylings */
+footer {
+    grid-column: 1 / 4;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    padding-left: 130px;
+}
